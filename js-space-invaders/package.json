@@ -1,16 +1,19 @@
 {
-  "name": "js-space-invaders",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel index.html"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "http-server": "^0.12.3",
-    "parcel": "^1.12.4"
-  }
+	"name": "js-space-invaders",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"http-server": "^0.12.3",
+		"parcel": "1.12.3"
+	},
+	"resolutions": {
+		"@babel/preset-env": "7.13.8"
+	}
 }
